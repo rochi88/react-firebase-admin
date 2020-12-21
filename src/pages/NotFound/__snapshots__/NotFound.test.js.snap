@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> rendering should render without crashing 1`] = `
+<DocumentFragment>
+  <section
+    class="hero is-fullheight"
+  >
+    <div
+      class="hero-body"
+    >
+      <section
+        class="section section"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="columns is-vcentered is-desktop"
+          >
+            <div
+              class="column has-text-centered"
+            >
+              <h1
+                class="title"
+              >
+                Error 404: page not found
+              </h1>
+              <p
+                class="subtitle"
+              >
+                The requested URL / was not found
+              </p>
+              <a
+                class="button is-info is-normal"
+                href="/login"
+              >
+                Go Back
+              </a>
+            </div>
+            <div
+              class="column has-text-centered"
+            >
+              <img
+                alt="404 error"
+                src="404.gif"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</DocumentFragment>
+`;

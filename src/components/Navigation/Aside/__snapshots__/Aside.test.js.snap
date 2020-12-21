@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Aside /> rendering should render without crashing 1`] = `
+<DocumentFragment>
+  <aside
+    class="aside is-placed-left is-expanded"
+  >
+    <a
+      class="aside-tools"
+      href="/"
+    >
+      <div
+        class="aside-tools-label"
+      >
+        <span>
+          <b>
+            React
+          </b>
+           Firebase
+        </span>
+      </div>
+    </a>
+    <div
+      class="menu is-menu-main"
+    >
+      <ul
+        class="menu-list"
+      >
+        <li>
+          <a
+            aria-current="page"
+            class="has-icon is-active"
+            href="/"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="mdi mdi-home"
+              />
+            </span>
+            <span
+              class="menu-item-label"
+            >
+              Home
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="has-icon"
+            href="/users"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="mdi mdi-account-supervisor"
+              />
+            </span>
+            <span
+              class="menu-item-label"
+            >
+              Users
+            </span>
+          </a>
+        </li>
+        <li
+          class=""
+        >
+          <a
+            class="has-icon has-dropdown-icon"
+            exact-active-class="is-active"
+          >
+            <span
+              class="icon"
+            >
+              <i
+                class="mdi mdi-view-list"
+              />
+            </span>
+            <span
+              class="menu-item-label"
+            >
+              Dropdown Menu
+            </span>
+            <div
+              class="dropdown-icon"
+            >
+              <span
+                class="icon"
+              >
+                <i
+                  class="mdi mdi-plus"
+                />
+              </span>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                class="submenuLink"
+                href="/submenu1"
+              >
+                <span>
+                  Submenu 1
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="submenuLink"
+                href="/submenu2"
+              >
+                <span>
+                  Submenu 2
+                </span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </aside>
+</DocumentFragment>
+`;

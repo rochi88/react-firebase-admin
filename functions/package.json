@@ -1,0 +1,39 @@
+{
+  "name": "functions",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "setup-firebase": "node setupProject.js",
+    "test": "mocha -r ts-node/register --recursive 'test/**/*.test.ts' --timeout 10000 --exit"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "camelcase": "^6.0.0",
+    "firebase-admin": "^9.4.1",
+    "firebase-function-tools": "^1.1.4",
+    "firebase-functions": "^3.12.0",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/chai-as-promised": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "firebase-functions-test": "^0.2.3",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.2"
+  },
+  "private": true
+}

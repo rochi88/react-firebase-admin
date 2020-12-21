@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Users /> rendering should render without crashing 1`] = `
+<DocumentFragment>
+  <section
+    class="hero is-hero-bar"
+  >
+    <div
+      class="hero-body"
+    >
+      <div
+        class="level"
+      >
+        <div
+          class="level-left"
+        >
+          <div
+            class="level-item"
+          >
+            <h1
+              class="title"
+            >
+              Users
+            </h1>
+          </div>
+        </div>
+        <div
+          class="level-right"
+        >
+          <div
+            class="level-item"
+          >
+            <a
+              class="button"
+              href="/users/new"
+            >
+              New User
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="section is-main-section"
+  >
+    <div
+      class="card has-table has-mobile-sort-spaced"
+    >
+      <header
+        class="card-header"
+      >
+        <p
+          class="card-header-title tableHeader"
+        >
+          <span>
+            Search:
+          </span>
+          <input
+            class="input"
+            type="text"
+            value=""
+          />
+        </p>
+      </header>
+      <div
+        class="b-table"
+      >
+        <div
+          class="table-wrapper"
+        >
+          <table
+            class="table is-striped has-mobile-cards is-hoverable"
+            role="table"
+          >
+            <thead>
+              <tr
+                role="row"
+              >
+                <th
+                  class=""
+                  colspan="1"
+                  role="columnheader"
+                >
+                  <div
+                    class="th-wrap"
+                  />
+                </th>
+                <th
+                  class="isSortable"
+                  colspan="1"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                >
+                  <div
+                    class="th-wrap"
+                  >
+                    Name
+                  </div>
+                </th>
+                <th
+                  class="isSortable"
+                  colspan="1"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                >
+                  <div
+                    class="th-wrap"
+                  >
+                    Email
+                  </div>
+                </th>
+                <th
+                  class="isSortable"
+                  colspan="1"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                >
+                  <div
+                    class="th-wrap"
+                  >
+                    Location
+                  </div>
+                </th>
+                <th
+                  class="isSortable"
+                  colspan="1"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                >
+                  <div
+                    class="th-wrap"
+                  >
+                    Admin
+                  </div>
+                </th>
+                <th
+                  class="isSortable"
+                  colspan="1"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                >
+                  <div
+                    class="th-wrap"
+                  >
+                    Created
+                  </div>
+                </th>
+                <th
+                  class=""
+                  colspan="1"
+                  role="columnheader"
+                >
+                  <div
+                    class="th-wrap"
+                  />
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              role="rowgroup"
+            />
+          </table>
+          <div
+            class="level level"
+          >
+            <div
+              class="level-left"
+            >
+              <div
+                class="control"
+              >
+                <span
+                  class="select"
+                >
+                  <select>
+                    <option
+                      value="5"
+                    >
+                      5  per page
+                    </option>
+                    <option
+                      value="10"
+                    >
+                      10  per page
+                    </option>
+                    <option
+                      value="15"
+                    >
+                      15  per page
+                    </option>
+                    <option
+                      value="20"
+                    >
+                      20  per page
+                    </option>
+                    <option
+                      value="50"
+                    >
+                      50  per page
+                    </option>
+                  </select>
+                </span>
+              </div>
+            </div>
+            <div
+              class="level-right"
+            >
+              <div
+                class="level-item"
+              >
+                <nav
+                  class="pagination"
+                >
+                  <button
+                    class="pagination-link pagination-previous"
+                    disabled=""
+                    type="button"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="icon"
+                    >
+                      <i
+                        class="mdi mdi-chevron-left mdi-24px"
+                      />
+                    </span>
+                  </button>
+                  <button
+                    class="pagination-link pagination-next"
+                    disabled=""
+                    type="button"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="icon"
+                    >
+                      <i
+                        class="mdi mdi-chevron-right mdi-24px"
+                      />
+                    </span>
+                  </button>
+                  <ul
+                    class="pagination-list"
+                  >
+                    <li>
+                      <button
+                        aria-current="true"
+                        class="pagination-link currentPage"
+                        type="button"
+                      >
+                        1
+                      </button>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

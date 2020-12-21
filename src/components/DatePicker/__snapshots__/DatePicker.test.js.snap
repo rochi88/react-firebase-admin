@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatePickerStyled /> rendering should render without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="react-datepicker-wrapper"
+  >
+    <div
+      class="react-datepicker__input-container"
+    >
+      <input
+        class=""
+        type="text"
+        value="11-12-20"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

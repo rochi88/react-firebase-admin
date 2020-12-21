@@ -1,0 +1,106 @@
+{
+  "name": "react-firebase-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^0.1.0",
+    "bulma": "^0.9.1",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.16.1",
+    "firebase": "^8.1.2",
+    "mutationobserver-shim": "^0.3.7",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^17.0.1",
+    "react-firebaseui": "^4.1.0",
+    "react-hook-form": "^6.12.2",
+    "react-intl": "^5.10.6",
+    "react-redux": "^7.2.2",
+    "react-redux-toastr": "^7.6.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-spinners": "^0.9.0",
+    "react-table": "^7.6.2",
+    "redux": "^4.0.5",
+    "redux-act": "^1.8.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.32.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "setup-admin-dashboard": "npm install && npm build && firebase deploy",
+    "deploy": "npm run build && firebase deploy --only hosting",
+    "precommit:react": "npm test",
+    "precommit:functions": "cd functions/ && npm run build && npm test",
+    "precommit": "cross-env CI=true npm run precommit:react && npm run precommit:functions"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "deep-freeze": "^0.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.5",
+    "husky": "^4.3.5",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1",
+    "redux-mock-store": "^1.5.4",
+    "sass-loader": "^10.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit && lint-staged"
+    }
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "coverageReporters": [
+      "text",
+      "html"
+    ],
+    "resetMocks": true
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "functions/**/*.ts": [
+      "npm run lint"
+    ]
+  }
+}

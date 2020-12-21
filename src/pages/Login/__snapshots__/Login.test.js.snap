@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> rendering should render without crashing 1`] = `
+<DocumentFragment>
+  <section
+    class="section hero is-fullheight is-error-section"
+  >
+    <div
+      class="hero-body"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="columns is-centered"
+        >
+          <div
+            class="column is-two-fifths"
+          >
+            <div
+              class="card has-card-header-background"
+            >
+              <header
+                class="card-header"
+              >
+                <p
+                  class="card-header-title"
+                >
+                  <span
+                    class="icon"
+                  >
+                    <i
+                      class="mdi mdi-lock default"
+                    />
+                  </span>
+                  <span>
+                    Login
+                  </span>
+                </p>
+              </header>
+              <div
+                class="card-content"
+              >
+                <form>
+                  <div
+                    class="field"
+                  >
+                    <p
+                      class="label"
+                    >
+                      E-mail Address
+                    </p>
+                    <div
+                      class="control is-clearfix"
+                    >
+                      <input
+                        class="input"
+                        name="email"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="field"
+                  >
+                    <p
+                      class="label"
+                    >
+                      Password
+                    </p>
+                    <div
+                      class="control is-clearfix"
+                    >
+                      <input
+                        class="input"
+                        name="password"
+                        type="password"
+                      />
+                    </div>
+                  </div>
+                  <br />
+                  <div
+                    class="field is-grouped"
+                  >
+                    <div
+                      class="control"
+                    >
+                      <button
+                        class="button is-black"
+                        type="submit"
+                      >
+                        Login
+                      </button>
+                    </div>
+                    <div
+                      class="control"
+                    >
+                      <a
+                        class="button is-outlined"
+                        href="/recover-password"
+                      >
+                        Forgot Password?
+                      </a>
+                    </div>
+                  </div>
+                </form>
+                <hr />
+                <div
+                  class="field is-grouped socialButtons"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
